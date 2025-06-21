@@ -40,33 +40,21 @@ button{
   font-size: 20px;
 }
 
-#banner .content {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 1.15em;
-  line-height: 1.9em;
-}
-#banner h1 {
-  font-size: 2.75em;
-  font-weight: 800;
-}
-
-#banner header p {
-  font-size: 1.25em;
-  font-weight: 600;
-}
-/* Fix banner two-column layout */
-#banner .two-column {
+#banner .banner-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  gap: 3em;
+  padding: 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2em;
 }
 
 #banner .banner-text {
   flex: 1;
   min-width: 300px;
+  max-width: 600px;
   font-size: 1.15em;
   line-height: 1.9em;
 }
@@ -74,17 +62,23 @@ button{
 #banner .banner-text h1 {
   font-size: 2.5em;
   font-weight: 800;
+  margin-bottom: 0.5em;
+}
+
+#banner .banner-text header p {
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-bottom: 1.2em;
 }
 
 #banner .banner-image {
   flex: 1;
-  min-width: 250px;
   text-align: center;
 }
 
 #banner .banner-image img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
