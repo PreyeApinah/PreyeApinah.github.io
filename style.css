@@ -28,6 +28,33 @@ input{
   color:black;
 }
 
+.posts article {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1.5em;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.posts article:hover {
+  transform: translateY(-5px);
+}
+
+.posts article h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-top: 0.8em;
+  color: #333;
+}
+
+.posts article p {
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.6;
+}
+
+
 button{
   display:inline-block;
   background-color: black;
