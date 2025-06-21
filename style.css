@@ -47,3 +47,12 @@ button{
   font-size: 1.15em;
   line-height: 1.9em;
 }
+#banner h1 {
+  font-size: 2.75em;
+  font-weight: 800;
+}
+
+#banner header p {
+  font-size: 1.25em;
+  font-weight: 600;
+}
